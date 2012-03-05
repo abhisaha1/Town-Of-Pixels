@@ -1,0 +1,30 @@
+Town Of Pixels is a web application designed to showcase your Photographs or Designs or paintings in your own customized way. 
+It is purely coded in PHP and jQuery and proudly powered by LayoutQuery. 
+Its features has been developed as Plugins, which gives you the power to select what you want and discard what you dont. Moreover its completely Open-Source. 
+
+The installation is a three-step-process.
+
+    Get a Web Host
+    Install the Package
+    Start uploading Photographs
+
+===============
+INSTALLATION
+===============
+Installing Town Of Ajax is no big deal. You just need to know few things before you carry on with the installation.
+
+    Database Name
+    You need to create a database manually through cPanel. If you are unsure about this, you should contact your hosting provider and they will do it for you.
+    Database Username
+    While creating the database, you should assign a user to the database. You can create a new user and assign the same or you assign an existing user to the database.
+    Database Password
+    This is the password of the user you create above.
+    Hostname
+    Usually the hostname should be locahost in most of the case. But if it doest workout, you should ask your Hosting Provider about this. 
+
+Once you are ready with the above information, you are almost done. Enter the above details in the installation screen and carry on with the next step. Basically the installation does 2 things internally.
+
+    Creates a config.php file containing the above information in the root folder
+    Creates few tables in the database you created.
+
+If somehow, the installation didnt work for you, you can open the file config-sample.php from the root folder and update the file with the required information mentioned above and save it as config.php. 
